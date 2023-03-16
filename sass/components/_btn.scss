@@ -78,3 +78,26 @@
     transform: translateY(0);
   }
 }
+
+.btn-box {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+    transition: all 0.2s;
+  }
+}
+
+.no_style {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    $color-gold-light,
+    $color-gold-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}

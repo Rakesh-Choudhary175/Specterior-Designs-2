@@ -1,5 +1,10 @@
 .composition {
   position: relative;
+
+  &__photo__about {
+    width: 100%;
+  }
+
   &__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
