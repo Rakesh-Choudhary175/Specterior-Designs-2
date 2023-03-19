@@ -44,6 +44,60 @@
     background-position: center;
   }
 
+  &__bedroom {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/43.png);
+  }
+
+  &__kitchen {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/48.png);
+  }
+
+  &__livingroom {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/32.png);
+  }
+
+  &__kidroom {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/21.png);
+  }
+
+  &__tv {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/11.png);
+  }
+
+  &__enterance {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/12.png);
+  }
+
   &__logo-box {
     position: absolute;
     top: 4rem;

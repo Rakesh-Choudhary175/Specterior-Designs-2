@@ -568,6 +568,18 @@ body {
     background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/35.png);
     background-size: cover;
     background-position: center; }
+  .header__bedroom {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/43.png); }
+  .header__kitchen {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/48.png); }
+  .header__livingroom {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/32.png); }
+  .header__kidroom {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/21.png); }
+  .header__tv {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/11.png); }
+  .header__enterance {
+    background-image: linear-gradient(to right bottom, rgba(222, 171, 60, 0.2), rgba(187, 128, 34, 0.2)), url(../assets/About-Images/12.png); }
   .header__logo-box {
     position: absolute;
     top: 4rem;
