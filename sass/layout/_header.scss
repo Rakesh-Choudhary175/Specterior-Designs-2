@@ -23,6 +23,15 @@
     background-position: center;
   }
 
+  &__contact {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gold-light, 0.2),
+        rgba($color-gold-dark, 0.2)
+      ),
+      url(../assets/About-Images/43.png);
+  }
+
   &__project {
     height: 65vh;
     background-image: linear-gradient(
@@ -30,7 +39,7 @@
         rgba($color-gold-light, 0.2),
         rgba($color-gold-dark, 0.2)
       ),
-      url(../assets/About-Images/38.png);
+      url(../assets/About-Images/35.png);
     background-size: cover;
     background-position: center;
   }
@@ -48,6 +57,13 @@
   &__text-box {
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  &__text-box__project {
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;

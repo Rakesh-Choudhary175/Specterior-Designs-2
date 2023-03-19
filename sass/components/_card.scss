@@ -94,6 +94,33 @@
         ),
         url(../assets/livingroom-1.png);
     }
+
+    &--4 {
+      background-image: linear-gradient(
+          to right,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../assets/entrance-1.png);
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+          to right,
+          $color-primary-light,
+          $color-primary-dark
+        ),
+        url(../assets/kidsbed-1.png);
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+          to right,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../assets/tv-1.png);
+    }
   }
 
   &__heading {
