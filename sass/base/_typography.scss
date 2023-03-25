@@ -44,6 +44,11 @@ body {
   }
 }
 
+.glow-effect {
+  text-shadow: 0 0 10px $color-gold, 0 0 20px $color-gold, 0 0 40px $color-gold,
+    0 0 80px $color-gold, 0 0 160px $color-gold;
+}
+
 .heading--secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
