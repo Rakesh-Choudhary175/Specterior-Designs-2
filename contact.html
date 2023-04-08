@@ -88,7 +88,39 @@
                     />
                     <label for="email" class="form__label">Email address</label>
                   </div>
-                  <div class="form__group u-margin-bottom-medium">
+                  <div class="form__group">
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="Phone Number"
+                      id="phone"
+                      required
+                    />
+                    <label for="phone" class="form__label">Phone Number</label>
+                  </div>
+                  <div class="form__group">
+                    <input
+                      type="text"
+                      class="form__input"
+                      placeholder="Site Type"
+                      id="site"
+                      required
+                    />
+                    <label for="site" class="form__label">Site type</label>
+                  </div>
+                  <div class="form__group">
+                    <textarea
+                      name="message"
+                      placeholder="Any Extra Information"
+                      class="form__input"
+                      id="message"
+                      rows="3"
+                    ></textarea>
+                    <label for="message" class="form__label"
+                      >Any Extra Information</label
+                    >
+                  </div>
+                  <!-- <div class="form__group u-margin-bottom-medium">
                     <div class="form__radio-group">
                       <input
                         type="radio"
@@ -113,7 +145,7 @@
                         Shop Interior</label
                       >
                     </div>
-                  </div>
+                  </div> -->
                   <div class="form__group">
                     <button
                       type="button"
@@ -257,23 +289,26 @@
       function whatsapp() {
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
-        var home = document.getElementById("home").value;
-        var shop = document.getElementById("shop").value;
+        var phone = document.getElementById("phone").value;
+        var site = document.getElementById("site").value;
+        var message = document.getElementById("message").value;
 
         var url =
           "https://wa.me/917972487464?text=" +
-          "Name : " +
+          "*Name :* " +
           name +
           "%0a" +
-          "Email : " +
+          "*Email :* " +
           email +
           "%0a" +
-          "Home " +
-          home +
+          "*Phone Number :* " +
+          phone +
           "%0a" +
-          "Shop " +
-          shop;
-
+          "*Site Type :* " +
+          site +
+          "%0a" +
+          "*Extra Information :* " +
+          message;
         window.open(url, "_blank").focus();
       }
     </script>
