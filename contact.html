@@ -115,7 +115,13 @@
                     </div>
                   </div>
                   <div class="form__group">
-                    <button class="btn btn--white">Send on Whatsapp</button>
+                    <button
+                      type="button"
+                      class="btn btn--white"
+                      onclick="whatsapp();"
+                    >
+                      Send on Whatsapp
+                    </button>
                   </div>
                 </form>
               </div>
@@ -246,6 +252,31 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function whatsapp() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var home = document.getElementById("home").value;
+        var shop = document.getElementById("shop").value;
+
+        var url =
+          "https://wa.me/917972487464?text=" +
+          "Name : " +
+          name +
+          "%0a" +
+          "Email : " +
+          email +
+          "%0a" +
+          "Home " +
+          home +
+          "%0a" +
+          "Shop " +
+          shop;
+
+        window.open(url, "_blank").focus();
+      }
+    </script>
 
     <!-- <section class="grid-test">
       <div class="row">
