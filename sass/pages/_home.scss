@@ -24,7 +24,7 @@
       rgba($color-black, 0.8),
       rgba($color-black, 0.8)
     ),
-    url(../assets/back-1.png);
+    url(../assets/back-1.webp);
   background-size: cover;
 
   // transform: skewY(-7deg);
@@ -58,7 +58,7 @@
       rgba($color-black, 0.8),
       rgba($color-black, 0.8)
     ),
-    url(../assets/back-2.png);
+    url(../assets/back-2.webp);
   background-size: cover;
   position: relative;
   padding: 15rem 0;
@@ -75,7 +75,7 @@
       rgba($color-white, 0.9) 65%,
       transparent 65%
     ),
-    url(../assets/livingroom-1.png);
+    url(../assets/livingroom-1.webp);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
@@ -89,7 +89,7 @@
         rgba($color-white, 0.9) 65%,
         transparent 65%
       ),
-      url(../assets/livingroom-1.png);
+      url(../assets/livingroom-1.webp);
   }
 
   @include respond(tab-port) {
@@ -98,7 +98,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 100%
       ),
-      url(../assets/livingroom-1.png);
+      url(../assets/livingroom-1.webp);
   }
 
   &__form {
